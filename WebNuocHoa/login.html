@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="height: 100vh;">
+    <header>
+        <div class="header_top">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 pl-lg-4" style="height: 60px;">
+                <a class="navbar-brand" href="#">
+                    <a href="index.html"><img src="img/LOGO_Baby_Store.png" class="rounded-circle" id="logo-img" alt="day la logo"></a>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-0">
+                    <li class="nav-item active">
+                      <a class="nav-link font-weight-bold" style="font-size: 20px; color: white" href="#">Đăng Nhập</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <div class="container m-auto">
+        <div class="box">
+            <span class="line"></span>
+            <form action="" method="post">
+                <h2>Đăng Nhập</h2>
+                <div class="inputBox">
+                    <input type="text" name="user_name" id="user_name" required="required">
+                    <span>Email</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="password" id="password" required="required">
+                    <span>Mật khẩu</span>
+                    <ion-icon class="see_pass_word" id="see_password" name="eye-off-outline"></ion-icon>
+                    <i></i>
+                </div>
+                <input type="submit" name="submit" id="loginButton" value="Đăng nhập" style="margin-top: 30px; width: auto;">
+                <div class="links" style="margin-top: 20px;">
+                    <a href="./signup.html">Đăng ký</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

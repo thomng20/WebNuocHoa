@@ -1,0 +1,193 @@
+
+ul li{
+    list-style: none;
+}
+/* ul li a{
+    color: black;
+} */
+header{
+    background: #c04377;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+main{
+    margin-top: 60px;
+}
+.header_top{
+    font-size: 18px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+.login_cart{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-right: 42px;
+}
+.cart{
+    color: white;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 1px 1px 11px 0px white;
+}
+.cart a:hover{
+    border: 1px solid aqua;
+    color: aqua;
+}
+.cart a{
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s linear;
+    display: grid;
+}
+.cart .count_cart{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    background-color: #e70f0f;
+    border-radius: 50%;
+    top: 0;
+}
+.logo img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 2px;
+    object-fit: cover;
+}
+.nav_input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+.input_header{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 500px;
+}
+.input_header button{
+    padding: 0 25px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    /* border-left: 1px solid aqua; */
+    border-radius: 0 5px 5px 0;
+    background: aqua;
+    transition: .2s ease-in-out;
+}
+.input_header input:focus{
+    border: 1px solid aqua;
+}
+.input_header button:hover
+{
+    background-color: rgb(36, 210, 210);
+}
+.input_product{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #a89d9d;
+    border-radius: 5px;
+}
+.navbar_menu{
+    display: inline-flex;
+    list-style: none;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+.navbar_menu>li{
+    padding: 0 20px;
+}
+.menu_header{
+    position: absolute;
+    left: 54%;
+    transform: translateX(-60%);
+}
+.navbar_menu li a{
+    text-decoration: none;
+    color: white;  
+}
+.navbar_menu>li + li {
+    border-left:1px solid rgba(249, 242, 242, 0.5);
+}
+.navbar_menu li a:hover{
+    color: white;
+    text-shadow: 1px 1px 3px white;
+
+}
+.login_logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.login ion-icon{
+    color: white;
+    /* cursor: pointer; */
+    background-color: transparent;
+    /* border: 1px solid white; */
+    padding: 0 10px;
+    border-radius: 10px;
+    transition: .1s linear;
+}
+#logout{
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logout ion-icon:hover{
+    color: red;
+    text-shadow: 1px 1px 3px red;
+    text-decoration: none;
+}
+.login  span a{
+    color: white;
+    text-decoration: none;
+}
+.login  span a:hover{
+    color: white;
+    font-weight: bolder;
+    text-decoration: dotted;
+}
+
+
+
+
+@keyframes drop_menu{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

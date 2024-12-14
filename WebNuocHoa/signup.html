@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light p-0 pl-lg-4" style="height: 60px;">
+                <a class="navbar-brand" href="#">
+                    <a href="index.html"><img src="img/LOGO_Baby_Store.png" class="rounded-circle" id="logo-img" alt="day la logo"></a>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-0">
+                    <li class="nav-item active">
+                      <a class="nav-link font-weight-bold" style="font-size: 20px; color: white " href="#">Đăng Ký</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <div class="box" style="height: 595px;">
+        <span class="line"></span>
+        <form action="" style="padding: 12px 40px;">
+            <h2>Đăng Ký</h2>
+            <div class="inputBox">
+                <input type="text" name="user_name" id="user_name" required="required">
+                <span>Tên khách hàng</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" id="email" required="required">
+                <span class="emailLable">Email</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="password" id="password" required="required">
+                <span>Mật khẩu</span>
+                <ion-icon class="see_pass_word" id="see_password" name="eye-off-outline"></ion-icon>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="confirm-password" id="confirm-password" required="required">
+                <span>Xác nhận mật khẩu</span>
+                <ion-icon class="see_pass_word" id="see_confirm_password" name="eye-off-outline"></ion-icon>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="number" name="n_phone" id="n_phone" required="required">
+                <span>Số điện thoại</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <p style="color: white;">Đã có tài khoản?</p>
+                <a href="./login.html">Đăng nhập</a>
+            </div>
+            
+            <input type="submit" id="registerButton" name="submit" value="Đăng ký" style="margin: 20px auto 0;">
+        </form>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/data.js"></script>
+</body>
+</html>

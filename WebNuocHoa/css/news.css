@@ -1,0 +1,198 @@
+
+main{
+    width: 1350px;
+    margin: 100px auto;
+}
+.than{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 560px;
+}
+.than .img_left{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 2%;
+}
+.than1{
+    position: relative;
+    width: 100%;
+    height: 56%;
+    
+}
+.than1 img{
+    width: 100%;
+    height: 100%;
+}
+.than1 button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 20px;
+    right: 111px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+.than2{
+    position: relative;
+    width: 49%;
+    height: 42%;
+    
+}
+.than2 img{
+    width: 100%;
+    height: 100%;
+}
+.than2 p{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    bottom: 75px;
+    right: 149px;
+    left: 10px;
+}
+.than2 button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 20px;
+    right: 42px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.than3{
+    position: relative;
+    width: 49%;
+    height: 42%;
+    
+}
+.than3 img{
+    width: 100%;
+    height: 100%;
+}
+.than3 p{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    bottom: 130px;
+    right: 135px;
+    left: 41px;
+}
+.than3 button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 20px;
+    right: 75px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.than .img_right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    height: 100%;
+}
+.than4{
+    position: relative;
+    width: 100%;
+    height: 68%;
+}
+.than4 img{
+    width: 100%;
+    height: 100%;
+}
+.than4 p{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    bottom: 132px;
+    right: 79px;
+    left: 28px;
+}
+.than4 button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 20px;
+    right: 62px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.than5{
+    position: relative;
+    width: 100%; 
+    height: 30%;
+}
+.than5 img{
+    width: 100%;
+    height: 100%;
+}
+.than5 p{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    bottom: 64px;
+    right: 91px;
+    left: 9px;
+}
+.than5 button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 20px;
+    right: 39px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    background-color: #c04377;
+}
+.navbar_menu .news a{
+    color: #c04377;
+}
+.td_1{
+	text-align:center;
+}
+#noidung{
+    margin:0 auto;
+	padding: 0;
+	width: 90%;
+	margin-top:50px;
+	color:black;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+}
+.noidung_hinh{
+	max-width: 100%;
+	height: auto;
+	display: block;
+    justify-content: center;
+}
